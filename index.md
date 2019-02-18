@@ -1,6 +1,4 @@
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script>
-	window.onload=function(){
-		alert(1);
-	}
+	$('.page-header').remove();
 </script>
-<div>11111</div>
