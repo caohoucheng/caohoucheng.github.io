@@ -5,3 +5,10 @@
 		$('.site-footer').remove();
 	}
 </script>
+
+
+<div class="main">
+	
+</div>
+
+
