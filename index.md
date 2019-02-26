@@ -6,13 +6,14 @@
 		$('.site-footer').remove();
 	}
 </script>
-
+<div id="main" class="main">
+	<p>123</p>
+	<p>{{sex}}</p>
+</div>
 
 
 <script type="text/javascript">
-	$('.main-content').append('<div id="main" class="main">'
-									+'<p>{{name}}</p>'
-								+'</div>');
+									
 	var vm=new Vue({
 		el:'#main',
 		data:{
