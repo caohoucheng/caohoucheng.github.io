@@ -8,6 +8,7 @@
 </script>
 
 <div id="main" class="main">
+	<p>{{name}}</p>
 	{{name}}
 	{{birth}}
 	{{sex}}
