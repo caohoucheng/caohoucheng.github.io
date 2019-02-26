@@ -7,7 +7,7 @@
 	}
 </script>
 
-<div class="main">
+<div id="main" class="main">
 	{{name}}
 	{{birth}}
 	{{sex}}
