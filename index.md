@@ -7,14 +7,12 @@
 	}
 </script>
 
-<div id="main" class="main">
-	<p>{{name}}</p>
-	{{name}}
-	{{birth}}
-	{{sex}}
-</div>
+
 
 <script type="text/javascript">
+	$('.main-content').append('<div id="main" class="main">'
+									+'<p>{{name}}</p>'
+								+'</div>');
 	var vm=new Vue({
 		el:'#main',
 		data:{
